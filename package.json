@@ -1,0 +1,31 @@
+{
+  "name": "egg-queue-kafka",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/callmez/egg-queue-kafka.git"
+  },
+  "keywords": [
+    "egg",
+    "task",
+    "bull"
+  ],
+  "author": "callme-z@qq.com",
+  "bugs": {
+    "url": "https://github.com/callmez/egg-queue-kafka/issues"
+  },
+  "homepage": "https://github.com/callmez/egg-queue-kafka#readme",
+  "eggPlugin": {
+    "name": "queue"
+  },
+  "dependencies": {
+    "assert": "^1.4.1",
+    "kafka-node": "^2.6.1",
+    "lodash": "^4.17.10"
+  }
+}
